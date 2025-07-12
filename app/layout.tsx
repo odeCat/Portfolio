@@ -9,7 +9,12 @@ export const metadata: Metadata = {
   title: "Catherine A. Olleres - Portfolio",
   description:
     "Computer Science graduate passionate about building modern, responsive websites and mobile applications",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({

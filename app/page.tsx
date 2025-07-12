@@ -89,8 +89,8 @@ export default function Portfolio() {
       <header className="sticky top-0 z-50 animate-fade-in py-4">
         <div className="flex justify-center">
           <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 bg-white/50 backdrop-blur-lg shadow-lg rounded-2xl p-2 border border-white/20">
-            <Link href="/" className="text-xl sm:text-2xl font-bold text-theme-primary px-4" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
-              <img src="/C logo.png" alt="Catherine Logo" className="h-10 w-10 object-cover rounded-2xl mr-2" loading="lazy" />
+            <Link href="/" className="text-xl sm:text-2xl font-bold text-theme-primary px-4 flex items-center" style={{ fontFamily: "Bebas Neue, sans-serif" }}>
+              <img src="/C logo.png" alt="Catherine Logo" className="h-8 w-8 object-cover rounded-lg" loading="lazy" />
             </Link>
             <nav className="flex space-x-1">
               <Link
